@@ -19,6 +19,22 @@
                 </ul>
             </li>
             <li>
+                Memory Management in Swift:
+                <ul>
+                    <li>Memory Leak in Swift</li>
+                    <li>Preventing Memory Leak in Swift</li>
+                    <li>Automatic Reference Counting (ARC)</li>
+                    <li>Retain Cycle or Strong Reference Cycle</li>
+                    <li>Closure Capture Lists</li>
+                    <li>`var`, `weak var`, `unowned var`, `unowned let`, `unowned(unsafe) var`</li>
+                    <li>[weak self] & [unowned self]</li>
+                    <li>weakSelf/strongSelf Dance</li>
+                    <li>Finding Memory Leaks using Xcode's Memory Graph Hierarchy</li>
+                    <li>Preventing Strong Reference Cycles between Class Instances</li>
+                    <li>Preventing Strong Reference Cycles for Closures</li>
+                </ul>
+            </li>
+            <li>
                 Swift program entry point:
                 <ul>
                     <li>@UIApplicationMain</li>
@@ -54,6 +70,23 @@
                 </ul>
             </li>
             <li>
+                Concurrency:
+                <ul>
+                    <li>GCD</li>
+                    <li>Callback based asynchronous functions</li>
+                    <li>Swift Concurrency (the new async/await APIs in Swift 5.5+)</li>
+                    <li>Tasks and Task Groups</li>
+                    <li>Actors (protecting mutable state with Swift actors)</li>
+                    <li>Isolation of tasks and actors</li>
+                    <li>Updating existing apps</li>
+                    <li>Structured concurrency in Swift</li>
+                    <li>Adopting the new Swift 5.5 concurrency in Core Data</li>
+                    <li>Safety from data races and thread explosion while simultaneously improving performance</li>
+                    <li>Difference between Swift tasks & Grand Central Dispatch</li>
+                    <li>Eliminating data races using Swift Concurrency</li>
+                </ul>
+            </li>
+            <li>
                 Frameworks:
                 <ul>
                     <li>Foundation</li>
@@ -74,6 +107,56 @@
                 </ul>
             </li>
             <li>
+                UI:
+                <ul>
+                    <li>UIKit</li>
+                    <li>SwiftUI</li>
+                    <li>Storyboards & Interface Builder</li>
+                    <li>High Performance Auto Layout</li>
+                    <li>Constraints</li>
+                    <li>100% Programmatic UI</li>
+                    <li>100% Programmatic Constraints</li>
+                    <li>UIKit & SwiftUI Interoperability</li>
+                    <li>Modern Table View & Collection Views</li>
+                    <li>Compositional Layouts</li>
+                    <li>Enhancing Collection Views and Table Views</li>
+                    <li>Table View & Collection Views Using Diffable Data Sources</li>
+                    <li>Building High-Performance Lists and Collection Views</li>
+                    <li>Supporting Dark Mode in the Interface</li>
+                    <li>Scene based UIKit Apps</li>
+                </ul>
+            </li>
+            <li>
+                Networking (REST APIs):
+                <ul>
+                    <li><a href="https://developer.apple.com/documentation/foundation/urlsession">URLSession</a></li>
+                    <li><a href="https://github.com/Alamofire/Alamofire">Alamofire</a></li>
+                    <li>Pausing and Resuming Downloads</li>
+                    <li>Downloading Files in Background</li>
+                </ul>
+            </li>
+            <li>
+                JSON:
+                <ul>
+                    <li>Codable (Encodable & Decodable)</li>
+                    <li>JSONDecoder</li>
+                    <li>JSONEncoder</li>
+                    <li>JSONSerialization</li>
+                    <li>Change Key Names (CodingKeys)</li>
+                </ul>
+            </li>
+            <li>
+                Persistance:
+                <ul>
+                    <li>CoreData</li>
+                    <li>SwiftData</li>
+                    <li>Realm</li>
+                    <li>SQLite</li>
+                    <li>UserDefaults</li>
+                    <li>Keychain</li>
+                </ul>
+            </li>
+            <li>
                 The Swift Programming Language
                 <ul>
                     <li>Arrays, Sets, Dictionaries</li>
@@ -82,21 +165,56 @@
                     <li>Methods, Properties, Subscripts</li>
                     <li>Stored & Computed Properties</li>
                     <li>Instance Properties, Type Properties</li>
-                    <li>Generics, Protocols, Extensions</li>
+                    <li>Protocols, Extensions</li>
+                    <li>Protocol Oriented Programming</li>
+                    <li>Swift and Objective-C Interoperability</li>
+                    <li>Unsafe Swift</li>
+                    <li>Swift Generics</li>
                 </ul>
             </li>
+            <li>Access Control (open, public, internal, fileprivate, private)</li>
+            <li>Data Flow through SwiftUI</li>
+            <li>Data Flow through UIKit</li>
             <li>
                 General (Development)
                 <ul>
                     <li>Deep Linking</li>
                     <li>File Management</li>
                     <li>Photo, Audio & Video</li>
+                    <li>Photo Picker</li>
+                    <li>Maps</li>
+                    <li>Location</li>
+                    <li>Widgets</li>
+                    <li>Live Activity</li>
+                    <li>WatchOS Apps</li>
+                    <li>Press and Hold</li>
+                    <li>Build Configurations</li>
+                    <li>Push Notifications</li>
+                    <li>Notifications</li>
+                    <li>Localization</li>
+                    <li>Requirement Gathering, Design, Develop, Test, Debug, Deploy, Maintain, Update, Optimise & Ensure the reliability of the Codebase</li>
+                    <li>Crash Reports, User Feedback, Logging</li>
+                    <li>Testing on Real Device, Simulator, via TestFlight, ability to emulate different type of conditions like Poor Network, No Service, Battery Low, Unable to access camera/microphone/photos etc.</li>
+                    <li>Understanding of Entitlements, LICENCE, Configurations, Acknowledgements, Permissions, Privacy Policy, Terms and Conditions etc</li>
+                    <li>SwiftLint</li>
+                    <li>Payments & Reviews, StoreKit, RevenueCat</li>
+                    <li>TestFlight & Distribution for Beta Testing</li>
+                    <li>Ability to write highly testable code, ability to write tests for that code</li>
+                </ul>
+            </li>
+            <li>
+                Debugging:
+                <ul>
+                    <li>LLDB, `v`, dwim-print + Object Description (`po`), dwim-print (`p`)</li>
+                    <li>Crash Logs</li>
+                    <li>Breakpoints</li>
+                    <li>Unified Logging APIs: OSLog (Logger API), NSLog</li>
+                    <li>`print()`, `debugPrint()`, `dump()` + `#file`, `#fileID`, `#filePath`, `#line`, `#column`, `#function`</li>
                 </ul>
             </li>
             <li>Setting up a project</li>
             <li>Supporting older APIs</li>
             <li>Making functionality available depending upon the OS</li>
-            <li>Build Configurations</li>
             <li>
                 Firebase
                 <ul>
@@ -122,6 +240,83 @@
                     <li>Swift</li>
                     <li>Objective-C</li>
                     <li>C++</li>
+                </ul>
+            </li>
+            <li>Publishing to the App Store</li>
+            <li>
+                Version Control Systems:
+                <ul>
+                    <li>Git</li>
+                </ul>
+            </li>
+            <li>
+                Common Git Workflows:
+                <ul>
+                    <li>Feature Branch Workflow</li>
+                    <li>Git Flow</li>
+                    <li>GitHub Flow</li>
+                    <li>Trunk Based Development</li>
+                    <li>Release Branching</li>
+                    <li>GitOps Workflow</li>
+                </ul>
+            </li>
+            <li>
+                Dependency Managers:
+                <ul>
+                    <li><a href="https://www.swift.org/package-manager/">Swift Package Manager (SwiftPM)</a></li>
+                    <li><a href="https://cocoapods.org/">CocoaPods</a></li>
+                    <li><a href="https://github.com/Carthage/Carthage">Carthage</a></li>
+                </ul>
+            </li>
+            <li>
+                Continuous Integration and Continuous Deployment (CI-CD):
+                <ul>
+                    <li>Jenkins</li>
+                    <li>Xcode Server</li>
+                    <li>GitHub Actions</li>
+                    <li>Bamboo</li>
+                    <li>Fastlane</li>
+                </ul>
+            </li>
+            <li>Asynchronous Programming</li>
+            <li>Knowledge of Functional and Reactive Programming using Combine or RxSwift</li>
+            <li>
+                Software Architecture, UI Design Patterns:
+                <ul>
+                    <li>MVC</li>
+                    <li>MVVM</li>
+                    <li>MVP</li>
+                    <li>VIPER</li>
+                    <li>KVO</li>
+                    <li>Delegation</li>
+                    <li>Completion Handlers & Callbacks</li>
+                    <li>Observer</li>
+                    <li>Factory</li>
+                    <li>Singleton</li>
+                    <li>Coordinator</li>
+                    <li>Behavioral, Creational, Structural</li>
+                    <li>Dependency Injection</li>
+                    <li>SOLID</li>
+                </ul>
+            </li>
+            <li><a href="dsa.html">Commonly used Data Structures and Algorithms</a></li>
+            <li>Database Management System</li>
+            <li>Computer Science Fundamentals</li>
+            <li>General Bad Practices & Best Practices</li>
+            <li>Optimize App Build Performance</li>
+            <li>Optimising App Performance (Xcode Tools and Instruments)</li>
+            <li>Ensuring the Quality of Apps</li>
+            <li>Code Review</li>
+            <li>Finding and Reducing Bottlenecks</li>
+            <li>Sprint Planning and Sprint Reviews</li>
+            <li>Bash/Shell Scripting</li>
+            <li>Creating Swift Packages</li>
+            <li>
+                Software Control Management System:
+                <ul>
+                    <li>Jira</li>
+                    <li>Confluence</li>
+                    <li>Bugzilla</li>
                 </ul>
             </li>
         </ul>
